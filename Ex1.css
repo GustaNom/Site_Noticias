@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+header {
+    background-color: #580606;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    transition: color .5s;
+}
+
+header nav a:hover {
+    color: yellow;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #580606;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+body {
+    background-color: #58060684
+}
+
+main {
+    -webkit-box-shadow: 9px 8px 15px 0px rgba(0, 0, 0, 0.59);
+    box-shadow: 9px 8px 15px 0px rgba(0, 0, 0, 0.59);
+    width: 900px;
+    background-color: #ddddddb5;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    margin-top: 25px;
+    border-radius: 10px;
+
+}
+
+.noticia img {
+    width: 400px;
+    height: 0 150px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.noticia {
+    background-color: rgb(165, 42, 42);
+    padding: 30px 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 7px 4px 4px rgba(0, 0, 0, 0.45);
+    box-shadow: 1px 7px 4px 4px rgba(0, 0, 0, 0.45);
+    margin-bottom: 40px;
+}
+
+.noticia h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.kratos {
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 200px;
+    background-color: rgba(133, 40, 40, 0.814);
+    padding: 20px 15px;
+}
+
+.kratos img{
+    width: 200px;
+    height: 140px;
+    border-radius: 9px;
+    object-fit: cover;
+}
+.kratos h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.KK {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
