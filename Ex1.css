@@ -4,6 +4,23 @@
     font-family: "Roboto Condensed", sans-serif;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
 header {
     background-color: #580606;
     color: white;
